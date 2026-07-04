@@ -4,18 +4,16 @@ PRAGMA foreign_keys = ON;
 DELETE FROM students;
 DELETE FROM courses;
 
--- TODO 1:
--- Insert 3 courses.
--- Remember:
--- course_id is a number.
--- course_name must be present.
--- credits must be greater than 0.
+INSERT INTO courses (course_id,course_name,credits)
+VALUES
+    (1,'Become Artist',5),
+    (2,'Learn Java',10),
+    (3,'Human anatomy',8);
 
--- TODO 2:
--- Insert 5 students.
--- Remember:
--- id is a number.
--- name must be present.
--- email must be unique.
--- age must be 18 or older.
--- course_id must exist in the courses table.
+INSERT INTO students (id,name,email,age,course_id)
+VALUES
+    (1,'John','john@gmail.com',20,1),
+    (2,'Matt','matt@gmail.com',22,1),
+    (3,'Rock','rock@gmail.com',32,2),
+    (4,'Kate','kate@gmail.com',65,2),
+    (5,'Lily','lily@gmail.com',45,3);
