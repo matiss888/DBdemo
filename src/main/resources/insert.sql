@@ -12,8 +12,8 @@ VALUES
 
 INSERT INTO students (id,name,email,age,course_id)
 VALUES
-    (1,'John','john@gmail.com',20,1),
-    (2,'Matt','matt@gmail.com',22,1),
+    (1,'John','john@gmail.com',21,1),
+    (2,'Matt','matt@gmail.com',19,1),
     (3,'Rock','rock@gmail.com',32,2),
     (4,'Kate','kate@gmail.com',65,2),
     (5,'Lily','lily@gmail.com',45,3);
